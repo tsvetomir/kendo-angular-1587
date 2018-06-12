@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { PDFExportModule } from '@progress/kendo-angular-pdf-export';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    PDFExportModule
   ],
   providers: [],
   bootstrap: [AppComponent]
